@@ -383,6 +383,7 @@
 "Assets/Scripts/Ammo.cs"
 "Assets/Scripts/Bullet.cs"
 "Assets/Scripts/BurnDamage.cs"
+"Assets/Scripts/Door.cs"
 "Assets/Scripts/Enemy.cs"
 "Assets/Scripts/FireDamage.cs"
 "Assets/Scripts/Fuel.cs"
