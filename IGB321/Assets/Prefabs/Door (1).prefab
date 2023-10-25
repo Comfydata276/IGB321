@@ -1042,6 +1042,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   doorAnimator: {fileID: 166971774701638005}
+  greenDoor: 0
+  blueDoor: 0
 --- !u!1 &3733455856992055907
 GameObject:
   m_ObjectHideFlags: 0
@@ -1752,6 +1754,7 @@ GameObject:
   - component: {fileID: 2118941418353070793}
   - component: {fileID: 3449326563544106577}
   - component: {fileID: 6086365760236623732}
+  - component: {fileID: 2452459526763043577}
   m_Layer: 0
   m_Name: Left Door (1)
   m_TagString: Untagged
@@ -2069,6 +2072,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6206149395600789836}
   m_Mesh: {fileID: 0}
+--- !u!65 &2452459526763043577
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6206149395600789836}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 78.31999, y: 10.190806, z: 0.5692749}
+  m_Center: {x: -33.580875, y: 5.095403, z: -0.2846394}
 --- !u!1 &6510752196985602645
 GameObject:
   m_ObjectHideFlags: 0
@@ -2082,6 +2106,7 @@ GameObject:
   - component: {fileID: 8659390799870528953}
   - component: {fileID: 7914397859691980726}
   - component: {fileID: 6056176309853122361}
+  - component: {fileID: 1982198271273543647}
   m_Layer: 0
   m_Name: Left Door (2)
   m_TagString: Untagged
@@ -2399,6 +2424,27 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6510752196985602645}
   m_Mesh: {fileID: 0}
+--- !u!65 &1982198271273543647
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6510752196985602645}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 94.62196, y: 10.190806, z: 0.5692749}
+  m_Center: {x: 47.31086, y: 5.095403, z: -0.2846394}
 --- !u!1 &6593357000263675929
 GameObject:
   m_ObjectHideFlags: 0
