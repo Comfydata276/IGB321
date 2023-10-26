@@ -36,7 +36,7 @@ public class Door : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.name == "Player" || other.gameObject.name == "Enemy")
+        if (other.gameObject.name == "Player")
         {
             if (!doorLocked)
             {
@@ -47,7 +47,7 @@ public class Door : MonoBehaviour
 
     private void OnTriggerExit(Collider other)
     {
-        if (other.gameObject.name == "Player" || other.gameObject.name == "Enemy")
+        if (other.gameObject.name == "Player")
         {
             if (!doorLocked)
             {

@@ -32,9 +32,12 @@ public class Enemy : MonoBehaviour {
     public GameObject burning;
     public GameObject explosion;
 
+    private IsometricCamera camScript;
+
     // Use this for initialization
     void Start () {
         agent = GetComponent<NavMeshAgent>();
+        camScript = GameObject.Find("Main Camera").GetComponent<IsometricCamera>();
     }
 
     // Update is called once per frame
@@ -46,6 +49,7 @@ public class Enemy : MonoBehaviour {
         if (health <= 0) {
             Instantiate(explosion, transform.position, transform.rotation);
             Destroy(this.gameObject);
+            camScript.DoShake(0.25f, 0.25f);
         }
     }
 
